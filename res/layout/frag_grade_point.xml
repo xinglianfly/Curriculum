@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/bg"
+      >
+
+  <TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     android:gravity="center_vertical"
+     android:layout_gravity="center"
+    android:stretchColumns="0,1">
+    <TableRow android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button 
+            android:id="@+id/year_1"
+             android:layout_height="120dp"
+             style="@style/metro_button"
+            android:layout_margin="5dp"
+            android:text="第一学年"
+            android:onClick="GradePointButtonClick"
+            ></Button>  
+         <Button 
+            android:id="@+id/year_2"
+            style="@style/metro_button"
+             android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:text="第二学年"
+            android:onClick="GradePointButtonClick"
+       ></Button>   
+        </TableRow>
+         <TableRow android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button 
+            android:id="@+id/year_3"
+             android:layout_height="120dp"
+             style="@style/metro_button"
+            android:layout_margin="5dp"
+            android:onClick="GradePointButtonClick"
+            android:text="第三学年"
+     ></Button>  
+         <Button 
+            android:id="@+id/year_4"
+             android:layout_height="120dp"
+            android:layout_margin="5dp"
+            style="@style/metro_button"
+            android:onClick="GradePointButtonClick"
+            android:text="第四学年"
+            ></Button>   
+        </TableRow>
+   
+
+</TableLayout>
+
+</ScrollView>
+

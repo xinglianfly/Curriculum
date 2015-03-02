@@ -1,0 +1,128 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.sdu.online"
+    android:versionCode="30"
+    android:versionName="1.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="cn.edu.sdu.online.app.Main"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+
+                <!--
+                     <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StarterTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.umeng.fb.ContactActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="cn.edu.sdu.online.activity.WriteCommentActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.signActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.PinglunActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name="cn.edu.sdu.online.pulltorefresh.ZanActivity" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.PublishHomework"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.ReleaseQuestion"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.AnswerQuestion"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity android:name="cn.edu.sdu.online.HomeworkDetails" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.superXueba.StartActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.superXueba.addAppActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.superXueba.InterceptActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.superXueba.SetTimeActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.superXueba.BroadCastActivity"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.edu.sdu.online.activity.QuestionDetails"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52a4215656240b77fd169aab" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="colin" />
+
+        <service android:name="cn.edu.sdu.online.service.NotificationService" >
+        </service>
+        <service android:name="cn.edu.sdu.online.service.DownLoadService" >
+        </service>
+        <service android:name="cn.edu.sdu.online.superXueba.XuebaService" >
+        </service>
+    </application>
+
+</manifest>

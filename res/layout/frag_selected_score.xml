@@ -1,0 +1,57 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TableRow android:layout_marginBottom="6dp" >
+
+        <TextView
+            android:id="@+id/row_course"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:text="课程名" />
+
+        <TextView
+            android:id="@+id/row_credit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:text="学分" />
+
+        <TextView
+            android:id="@+id/row_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:text="成绩" />
+
+        <TextView
+            android:id="@+id/row_attr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:text="课程属性" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/score_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp" >
+    </ListView>
+
+</TableLayout>

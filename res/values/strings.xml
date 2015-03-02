@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">口袋学霸</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密　码</string> <!-- 空格需要全角形式的 -->
+    <string name="login_btn">登 　陆</string> <!-- 空格需要全角形式的 -->
+    <string name="remind">输入您的学号，选课密码，直接从学校教务系统导入课程。您的个人信息不会被泄露，请放心使用。</string>
+    <string name="about_title1">关于本软件</string>
+    <string name="about_content1">此版本适用于android2.2及以上固件，本软件的下载，安装完全免费，使用过程中产生的数据流量，由运营商收取。如在其他手机系统上使用本产品产生的任何问题。我们将不承担任何责任</string>
+    <string name="about_content2">版权所有：学生在线移动终端开发团队</string>
+    <string name="about_title2">关于我们</string>
+    <string name="about_content3">使用中如果遇到任何问题，请及时联系我们</string>
+    <string name="about_content4">发送邮件至：online_mobile@163.com</string>
+    <string name="about_content5">学生在线官方网站：</string>
+    <string name="about_content6">http://www.online.sdu.edu.cn</string>
+    <string name="about_content7">如果您有好的创意或建议，也欢迎与我们沟通交流。</string>
+    <string name="about_content8">学生在线，我们一直在努力！</string>
+    <string name="about_content9">用户反馈</string>
+    
+     <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    
+</resources>

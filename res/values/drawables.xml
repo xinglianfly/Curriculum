@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="shadow">#eeffee</drawable>
+    <drawable name="button_pressed">#b5b5b5</drawable>
+    <drawable name="button_normal">#FFF</drawable>
+    <drawable name="seperator_color">#e1e1e1</drawable>
+    <drawable name="play">#51b4e5</drawable>
+    <drawable name="play_press">#f17f43</drawable>
+    <drawable name="slider_background">#eeeeee</drawable>
+    <drawable name="pure_white">#fff</drawable>
+    <drawable name="pure_blue">#00f</drawable>
+    <drawable name="pure_red">#f00</drawable>
+    <drawable name="pure_black">#000</drawable>
+    <drawable name="bg_striped">#3faaf3</drawable>
+    <drawable name="bg_striped_split">#000</drawable>
+    <drawable name="slider_seperator">#dedede</drawable>
+    <drawable name="edge_color">#55f2f2f2</drawable>
+    <drawable name="color_1">#4f9ebf</drawable>
+    <drawable name="color_2">#ff6666</drawable>
+    <drawable name="color_3">#a3dced</drawable>
+    <drawable name="color_4">#f09e6f</drawable>
+    <drawable name="color_5">#9999ff</drawable>
+    <drawable name="color_6">#ffff66</drawable>
+    <drawable name="color_7">#b2ff66</drawable>
+    <drawable name="color_8">#FF34B3</drawable>
+    <drawable name="color_9">#40E0D0</drawable>
+    <drawable name="color_10">#00EE00</drawable>
+    <drawable name="color_11"> #121212</drawable>
+    <drawable name="color_12"> #121212</drawable>
+    <drawable name="color_13"> #121212</drawable>
+    <drawable name="color_14"> #121212</drawable>
+    <drawable name="color_15"> #121212</drawable>
+    <drawable name="color_16"> #121212</drawable>
+    <drawable name="color_17"> #121212</drawable>
+    <drawable name="color_18"> #121212</drawable>
+    <drawable name="color_19"> #121212</drawable>
+    <drawable name="color_20"> #121212</drawable>
+    <drawable name="Curriculum_text_color">#000000</drawable>
+    <drawable name="exit_red">#f33f3f</drawable>
+
+</resources>
